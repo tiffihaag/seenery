@@ -1,0 +1,69 @@
+/*Color Changing Header*/
+body{
+	background-color: #000000;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#gradient{
+  width: 100%;
+  height: 190px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Logo*/
+.navbar-brand{
+	margin-top: -11px;
+}
+
+/*Title and Description*/
+.title{
+	font-size: 90px;
+	font-style: bold;
+	text-align: center;
+	color: black;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding-bottom: 5px;
+}
+
+.desc{
+	font-size: 30px;
+	font-style: bold;
+	text-align: center;
+	color: black;
+}
+
+/*Google Login*/
+#my-signin2 {
+    margin-top: 400px;
+}
+
+#AfterLogin {
+    visibility: hidden;
+    display: none;
+}
+
+/*Columns*/
+.col-md-4{
+	text-align: center;
+}
+
+/*Carousel Gallery*/
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */
+    /*width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+.carousel-caption h3 {
+    color: #fff !important;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
